@@ -5,6 +5,7 @@ Amazon is an online shopping website that now caters to millions of people every
 
 ## Project Structure
 • Jupyter notebook: Contains Jupyter notebook with Data Preprocessing Part and the Sentiment Notebook.
+
                       Week 1 & 2: Class Imbalance Problem        |         Week 3 & 4: Model Selection and Advanced Techniques 
 
 ## Week 1 & 2: Class Imbalance Problem
@@ -25,23 +26,25 @@ Data Preprocessing is done for the mentioned dataset. Drop missing values and du
 Oversampling or undersampling can be used to tackle the class imbalance problem. In case of class imbalance criteria, use the following metrices for evaluating model performance: precision, recall, F1-score, AUC-ROC curve. Use F1-Score as the evaluation criteria for this project. Use Tree-based classifiers like Random Forest and XGBoost. Note: Tree-based classifiers work on two ideologies namely, Bagging or Boosting and have fine-tuning parameter which takes care of the imbalanced class.
 
 ## Week 3 & 4: Model Selection and Advanced Techniques 
-• Model Selection:
+### Model Selection:
 
 Apply multi-class SVM’s and neural nets. Use possible ensemble techniques like: XGboost + oversampled_multinomial_NB. Assign a score to the sentence sentiment (engineer a feature called sentiment score). Use this engineered feature in the model and check for improvements. Draw insights on the same.
 
-• Applying LSTM:
+### Applying LSTM:
 
 Use LSTM for the previous problem (use parameters of LSTM like top-word, embedding-length, Dropout, epochs, number of layers, etc.)
+
   • Compare the accuracy of neural nets with traditional ML based algorithms.
 
   • Find the best setting of LSTM (Neural Net) and SVM's that can best classify the reviews as positive, negative, and neutral.
 
   • Hint: Use techniques like Grid Search, Cross-Validation and Random Search
 
-• Topic Modeling:
+### Topic Modeling:
 
-Cluster similar reviews. Note: Some reviews may talk about the device as a gift-option. Other reviews may be about product looks and some may highlight about its battery and performance. Try naming the clusters.
-Perform Topic Modeling Hint: Use scikit-learn provided Latent Dirchlette Allocation (LDA) and Non-Negative Matrix Factorization (NMF).
+• Cluster similar reviews. Note: Some reviews may talk about the device as a gift-option. Other reviews may be about product looks and some may highlight about its battery and performance. Try naming the clusters.
+
+• Perform Topic Modeling Hint: Use scikit-learn provided Latent Dirchlette Allocation (LDA) and Non-Negative Matrix Factorization (NMF).
 
 
 
